@@ -25,7 +25,7 @@ describe("Ghar Saaz - New Arrivals", () => {
     cy.wait(1000);
 
     const productCardXpath =
-      '//*[@id="halo-product-block-template--24267976802580__163247026462da6862"]/div/div[2]/div/div/div/div[6]';
+      '//*[@id="halo-product-block-template--24267976802580__163247026462da6862"]/div/div[2]/div/div/div/div[7]';
     cy.xpath(productCardXpath)
       .should("exist")
       .scrollIntoView({ duration: 800 })
