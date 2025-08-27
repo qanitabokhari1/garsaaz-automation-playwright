@@ -1,0 +1,20 @@
+{
+  "name": "gharsaaz-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:gharsaaz": "cypress run --spec 'cypress/e2e/gharsaaz.cy.js'"
+  },
+  "keywords": ["cypress", "automation", "testing", "e2e"],
+  "author": "",
+  "license": "ISC",
+  "description": "Automated testing for Ghar Saaz website using Cypress",
+  "devDependencies": {
+    "cypress": "^15.0.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
